@@ -1,9 +1,14 @@
 package javacore;
 
+import java.util.Scanner;
+
 public class HelloWorld {
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
-		int result = 5 + 3 * 9 - 10 / 3;
-		System.out.println("result: " + result);
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Nhập tên của bạn: ");
+		String name = scanner.nextLine();
+		System.out.print("Nhập tuổi của bạn: ");
+		int age = scanner.nextInt();
+		System.out.println("Tên bạn là: " + name + ", tuổi là: " + age);
 	}
 }
