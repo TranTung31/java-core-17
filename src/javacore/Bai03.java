@@ -8,5 +8,6 @@ public class Bai03 {
 		System.out.print("Nhập cạnh của hình lập phương: ");
 		float canh = scanner.nextFloat();
 		System.out.println("Thể tích của hình lập phương: " + Math.pow(canh, 3));
+		scanner.close();
 	}
 }

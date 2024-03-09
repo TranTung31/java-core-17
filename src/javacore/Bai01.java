@@ -10,5 +10,6 @@ public class Bai01 {
 		System.out.print("Nhập điểm: ");
 		float result = scanner.nextFloat();
 		System.out.println(name + " có điểm = " + result);
+		scanner.close();
 	}
 }

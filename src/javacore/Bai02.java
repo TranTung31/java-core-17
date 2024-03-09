@@ -12,5 +12,6 @@ public class Bai02 {
 		System.out.println("Chu vi: " + (chieuRong + chieuDai) * 2);
 		System.out.println("Diện tích: " + chieuRong * chieuDai);
 		System.out.println("Cạnh nhỏ nhất: " + Math.min(chieuRong, chieuDai));
+		scanner.close();
 	}
 }
