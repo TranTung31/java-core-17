@@ -7,7 +7,7 @@ public class CreateStudent {
 
 	public static void main(String[] args) {
 		// Khởi tạo 1 đối tượng st từ class Student
-		Student st = new Student();
+		Student st = new Student(); // constructor không có tham số
 		st.name = "Nguyen Van A";
 		st.age = 20;
 		System.out.println("Student with name = " + st.name + ", age = " + st.age);
