@@ -7,4 +7,5 @@ public class Student {
 	public void newStudent() {
 		System.out.println("New Student!");
 	}
+
 }
